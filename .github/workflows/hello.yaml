@@ -11,4 +11,7 @@ jobs:
     runs-on:  ubuntu-latest
     steps:
       - name: "print hello tinkal"
-        run: echo "Hello Tinkal"    
+        run: echo "Hello Tinkal"   
+        
+      - name: "print current date"
+        run: date
